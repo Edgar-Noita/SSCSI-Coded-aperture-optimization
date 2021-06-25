@@ -60,7 +60,7 @@ x=floor((random_access-1)/N)+1;
 
 
 window_size=L; %Size of the window related to third term Eq. (22)
-   
+t_aux=t; %Initilization of taux, used in the random walk   
     for i=1:N^2 %over the coded aperture elements
       
           
