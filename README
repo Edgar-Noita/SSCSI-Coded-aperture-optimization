@@ -3,7 +3,7 @@ Please cite this paper if used. A detailed explanation of the software can be fo
 
 exe: Main file.
 
-evaluation_2_blue_fin:  Function that executes the iterations
+evaluation_2_blue_fin:  Function that executes the principal algorithm
 
 ct_fn: Calculation of the first and second terms, EQ. (22)
 
