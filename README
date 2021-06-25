@@ -3,3 +3,13 @@ Please cite this paper if used. A detailed explanation of the software can be fo
 
 exe: Main file.
 
+evaluation_2_blue_fin:  Function that executes the iterations
+
+ct_fn: Calculation of the first and second terms, EQ. (22)
+
+ct_fn_ver: Calculation of the thrid term, EQ. (22)
+
+ct_fn_2_opt_2: Calculation of the first and second terms, EQ. (22) for a single iteration
+
+my_bool: Creates an array of matrices with boolean complementary codes
+
