@@ -1,6 +1,6 @@
 
 
-%This function calculates the first term of EQ, (22) in
+%This function calculates the first term and second term of EQ, (22) in
 %"Salazar et al. Coded Aperture Optimization in Spatial Spectral
 %Compressive Spectral Imagers"
 %Please cite this artice if used
