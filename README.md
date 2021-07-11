@@ -21,4 +21,7 @@ example: Implementation of the optimization for a given scenario. Plots the evol
 
 my_bool: Creates an array of matrices with boolean complementary codes (see restiction on Eq. (22)).
 
+The animated figure below shows the evolution of the patterns over the iterations:
+
+
 
