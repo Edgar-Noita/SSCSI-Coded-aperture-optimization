@@ -2,7 +2,7 @@
 # SSCSI-Coded-aperture-optimization 
 
 This repository contains the optimization algorithm implemented in "Salazar et al., Coded Aperture Optimization in Spatial Spectral Compressive Spectral Imagers".
-Please cite this paper if used. The cost function can be seen below
+Please cite this paper if used. The cost function can be seen below https://github.com/Edgar-Noita/SSCSI-Coded-aperture-optimization/blob/main/eq_22.png
 exe: Main file.
 
 evaluation_2_blue_fin:  Function that executes the principal algorithm
