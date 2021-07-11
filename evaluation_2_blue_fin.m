@@ -60,7 +60,7 @@ x=floor((random_access-1)/N)+1;
 
 
 window_size=L; %Size of the window related to third term Eq. (22)
-t_aux=t; %Initilization of taux, used in the random walk   
+ 
     for i=1:N^2 %over the coded aperture elements
       
           
@@ -77,7 +77,7 @@ t_aux=t; %Initilization of taux, used in the random walk
              weights(isinf(weights))=0;
   
              indx=find(Vi_t(random_access(i),:)); 
- 
+             taux=t; %Initilization of taux, used in the random walk  
              for sh=1:Q %calculate the cost function for every possible combination
                         %over the shots.. For example, for 3 shots= (1,0,0), (0,1,0), (0,0,1)      
            
