@@ -124,7 +124,7 @@ window_size=L; %Size of the window related to third term Eq. (22)
       
    end
    
-t_iter{iter-1}=t;
+t_iter{it-1}=t;
 end
 
 %emsambles the answer as a cell
