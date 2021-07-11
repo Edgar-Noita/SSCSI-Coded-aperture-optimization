@@ -20,11 +20,12 @@
 
 %%Outputs
 
+%t_iter=pattern after each iteration
 %t_beg: Inital guess of the coded aperture
 %t: Final coded aperture patterns after optimization
 %beta_upd: Cost function evolution over the iterations, given by Eq. (22) 
 %of the paper.
-function [t_beg,t,beta_upd]=evaluation_2_blue_fin(N,M,L,Q,ct,ct_1,ct_ver,Vi_t)
+function [t_iter,t_beg,t,beta_upd]=evaluation_2_blue_fin(N,M,L,Q,ct,ct_1,ct_ver,Vi_t)
 
 %Initial guess of coded aperture, must be Boolean
 t_beg=(my_bool(N,M,Q));
@@ -123,7 +124,7 @@ window_size=L; %Size of the window related to third term Eq. (22)
       
    end
    
-
+t_iter{iter-1}=t;
 end
 
 %emsambles the answer as a cell
