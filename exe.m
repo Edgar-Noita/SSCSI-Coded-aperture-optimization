@@ -17,13 +17,14 @@
 
 %%Outputs
 
+%t_iter: pattern after each iteration
 %t_beg: Inital guess of the coded aperture
 %t: Final coded aperture patterns after optimization
 %beta: Cost function evolution over the iterations, given by Eq. (22) 
 %of the paper.
 
 
-function [t_beg,t,beta]=exe(L,N,ct1,ctver,shots)
+function [t_iter,t_beg,t,beta]=exe(L,N,ct1,ctver,shots)
 
 
 
@@ -44,5 +45,5 @@ load(strcat('Vi_t_128_s',num2str(s),'.mat')); %This matrix contains the percenta
 %128 x 128 x 6 and s=0.046875
 
 %To have access to other values, please contact the author
-[t_beg,t,beta]=evaluation_2_blue_fin(N,N,L,shots,ct1,ctver,ctver,Vi_t);
+[t_iter,t_beg,t,beta]=evaluation_2_blue_fin(N,N,L,shots,ct1,ctver,ctver,Vi_t);
 
