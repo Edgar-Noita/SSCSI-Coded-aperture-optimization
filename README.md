@@ -17,6 +17,8 @@ ct_fn_ver: Calculation of the thrid term, EQ. (22)
 
 ct_fn_2_opt_2: Calculation of the first and second terms, EQ. (22) for a single iteration
 
+example: Implementation of the optimization for a given scenario. Plots the evolution of the cos function and also the patterns after each iteration
+
 my_bool: Creates an array of matrices with boolean complementary codes (see restiction on Eq. (22)).
 
 
