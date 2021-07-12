@@ -21,7 +21,9 @@ example: Implementation of the optimization for a given scenario. Plots the evol
 
 my_bool: Creates an array of matrices with boolean complementary codes (see restiction on Eq. (22)).
 
-The animated figure below shows the evolution of the patterns over the iterations:
+The figure below shows the evolution of the patterns over the iterations:
+
+![Alt text](https://github.com/Edgar-Noita/SSCSI-Coded-aperture-optimization/blob/main/pic1.png)
 
 
 
