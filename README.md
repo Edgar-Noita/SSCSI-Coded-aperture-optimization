@@ -27,3 +27,14 @@ The figure below shows the evolution of the patterns over the iterations:
 
 
 
+#To cite the paper
+
+@article{salazar2020coded,
+  title={Coded aperture optimization in spatial spectral compressive spectral imagers},
+  author={Salazar, Edgar and Arce, Gonzalo R},
+  journal={IEEE Transactions on Computational Imaging},
+  volume={6},
+  pages={764--777},
+  year={2020},
+  publisher={IEEE}
+}
