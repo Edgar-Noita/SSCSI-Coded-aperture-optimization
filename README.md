@@ -27,7 +27,7 @@ The figure below shows the evolution of the patterns over the iterations:
 
 
 
-#To cite the paper
+# To cite the paper
 
 @article{salazar2020coded,
   title={Coded aperture optimization in spatial spectral compressive spectral imagers},
